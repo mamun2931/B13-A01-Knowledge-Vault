@@ -52,7 +52,7 @@
     align-items: center;
     list-style: none;
 }
-.nav-text-content ul li ,a {
+.nav-text-content ul li a {
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -64,6 +64,8 @@
 #bg-hero {
     height: 674px;
     background-image:url(../assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bg-hero-content {
     max-width: 1360px;
@@ -189,7 +191,7 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
-        margin-bottom: 16;
+        margin-bottom: 16px;
 
 }
 .checkCircle-content h1 {
@@ -207,7 +209,8 @@
 .checkCircle-text p {
         color: #627382;
         font-size: 16px;
-        font-weight: 20px;
+       font-weight: 500;
+       line-height: 20px;
         margin-bottom: 16px;
 }
                                                 /* main section---3 */
@@ -236,8 +239,7 @@
 .early-conten p {
         color: #627382;
         font-size: 16px;
-        font-weight: 20px;
-        line-height: 24px;
+        line-height:24px;
         margin-bottom: 24px;
         margin-top: 16px;
 }
@@ -283,4 +285,8 @@ section small {
     margin: 0 auto;
     align-items: center;
 }
-                            
+
+.social-img {
+    max-width: 139px;
+    height: 60px;
+}
