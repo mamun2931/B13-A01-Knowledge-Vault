@@ -248,6 +248,7 @@ footer {
     height: 348px;
     background-color:#001931;
     margin-top: 120px;
+    text-align: center;
 }
 
 .social-links-section {
@@ -273,3 +274,13 @@ footer {
     height: 20px;
     margin-right: 16px;
 }
+section small {
+    color: #FAFAFA ;
+    font-size: 16px ;
+    line-height: 25px;
+    max-width: 1360px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+                            
